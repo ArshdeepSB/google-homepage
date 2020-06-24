@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <!-- Stylesheet Links--> 
+
+    <!-- <link rel="stylesheet" href="/css/reset.css" type="text/css" media="all"> -->
+    <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
+    
     <div class="left-nav">
         <a href="">About</a>
         <a href="">Store</a>
@@ -10,20 +16,24 @@
         <a href="">Gmail</a>
         <a href="">Images</a>
         <img src="/dots.png" height="30dp" width="30dp">
-        <img src="/A.png" height="30dp" width="30dp">
+        <img id="icon-img" src="/A.png" height="30dp" width="30dp">
     </div>
 
 </head>
 
 <body>
-    <img src="/googlelogo_color_272x92dp.png" height="92dp" width="272dp">
+
+    
+    <img id="googleImage"src="/googlelogo_color_272x92dp.png" height="92dp" width="272dp">
   
     <form action="search">
-        <img src="/search.jpg" height="20dp" width="20dp">
+        <div class="search-bar">
+        <img id="img-search"src="/search.jpg" height="20px" width="20px">
         <input type="text" title="search" for="search">
-        <img src="/mic.png" height="20dp" width="15dp">
-        
-        <div class="search buttons">
+        <img src="/mic.png" height="20px" width="15px">
+        </div>
+
+        <div class="search-buttons">
             <input type="submit" value="Google Search" title="search" for="search">
             <input type="submit" value="I'm Feeling Lucky">
         </div>    
@@ -35,14 +45,14 @@
 </body>
 
 <footer>
-    <span>Canada</span>
+    <span class="canada-span">Canada</span>
     <br>
-    <span>
+    <span class="right-span">
         <a href="">Advertising</a>
         <a href="">Business</a>
         <a href="">How Search Works</a>
     </span>
-    <span>
+    <span class="left-span">
         <a href="">Privacy</a>
         <a href="">Terms</a>
         <a href="">Settings</a>
